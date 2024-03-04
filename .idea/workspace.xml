@@ -9,50 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce082b95-49de-4565-947d-96e281bf775a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/pro14/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/EncoderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sec01/ex02/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sec01/ex02/MemberBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sec01/ex03/MemberBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/forward.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member4_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/member6_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/memberForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test01/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test02/forward1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test02/member1_02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test02/member6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test02/memberForm2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/Exlogin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/Exmember1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/Exmember4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/Exmember5.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/member1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/member2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/member3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/member4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/member5.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test03/memberForm.jsp" afterDir="false" />
+    <list default="true" id="ce082b95-49de-4565-947d-96e281bf775a" name="Changes" comment="24.03.04 jsp">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test03/member6.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test03/member6.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,8 +203,17 @@
       <option name="presentableId" value="Default" />
       <updated>1709519501741</updated>
       <workItem from="1709519502821" duration="253000" />
-      <workItem from="1709519765685" duration="15086000" />
+      <workItem from="1709519765685" duration="15353000" />
     </task>
+    <task id="LOCAL-00001" summary="24.03.04 jsp">
+      <option name="closed" value="true" />
+      <created>1709538293657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709538293657</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,5 +229,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="24.03.04 jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.03.04 jsp" />
   </component>
 </project>

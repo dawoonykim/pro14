@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>조건문 실습</title>
+    <title>조건문 실습1</title>
 </head>
 <body>
 
