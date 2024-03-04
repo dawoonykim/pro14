@@ -1,45 +1,37 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" import="sec01.ex01.MemberBean" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" import="java.util.List,java.util.ArrayList" %>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
     request.setCharacterEncoding("utf-8");
+    List dataList=new ArrayList();
+    dataList.add("hello");
+    dataList.add("world");
+    dataList.add("안녕하세요!!");
 %>
-<c:set var="id" value="hong" scope="page"/>
-<c:set var="pwd" value="1234" scope="page"/>
-<c:set var="name" value="${'홍길동'}" scope="page"/>
-<c:set var="age" value="${22}" scope="page"/>
-<c:set var="height" value="${177}" scope="page"/>
+<c:set var="list" value="<%=dataList%>"/>
 
 <html>
 <head>
-    <title>조건문 실습1</title>
+    <title>반복문 실습</title>
 </head>
 <body>
+<c:forEach var="i" begin="1" end="10" step="1" varStatus="loop">
+    i=${i} &nbsp;&nbsp;&nbsp; 반복횟수: ${loop.count}<br>
+</c:forEach>
+<hr>
+<c:forEach var="i" begin="1" end="10" step="2">
+    5*${i}=${5*i}<br>
+</c:forEach>
+<hr>
+<c:forEach var="data" items="${list}">
+    ${data}<br>
+</c:forEach>
+<hr>
+<c:set var="fruits" value="사과, 파인애플, 바나나, 망고, 귤"/>
 
-<table border="1" align="center">
-    <tr align="center" bgcolor="#99ccff">
-        <td width="7%">아이디</td>
-        <td width="7%">비밀번호</td>
-        <td width="7%">이름</td>
-        <td width="7%">나이</td>
-        <td width="7%">키</td>
-    </tr>
-    <c:choose>
-        <c:when test="${empty name}">
-            <tr align="center">
-                <td colspan="5">이름을 입력하세요.</td>
-            </tr>
-        </c:when>
-        <c:otherwise>
-            <tr align="center">
-                <td>${id}</td>
-                <td>${pwd}</td>
-                <td>${name}</td>
-                <td>${age}</td>
-                <td>${height}</td>
-            </tr>
-        </c:otherwise>
-    </c:choose>
-</table>
-
+<c:forTokens var="token" items="${fruits}" delims=",">
+    ${token}<br>
+</c:forTokens>
+<hr>
 </body>
 </html>
